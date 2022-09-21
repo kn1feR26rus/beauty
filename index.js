@@ -5,6 +5,7 @@ $(document).ready(function () {
   $(".map__item-title").mouseleave(function () {
     $(this).next().css("opacity", 0.5);
   });
+
   $(".catergory__item-title").hover(function () {
     $(this).next().css("opacity", 0);
   });
@@ -1712,31 +1713,39 @@ $(document).ready(function () {
 
   const urlSearchParams = new URLSearchParams(window.location.search);
   const params = Object.fromEntries(urlSearchParams.entries());
-  
+
   var queryLocation = params.location;
   var queryProfession = params.profession;
   var queryId = params.id;
 
-  $('[data-link]').click(function(e) {
+
+  $("[data-link]").click(function (e) {
     e.preventDefault();
-    var dataProfession = $(this).attr('data-profession');
-    var dataLocation = $(this).attr('data-location');
-    var dataId = $(this).attr('data-id');
+    var dataProfession = $(this).attr("data-profession");
+    var dataLocation = $(this).attr("data-location");
 
     if (dataProfession) {
       if (queryLocation) {
-        location.href = '/pages/masters.html?location=' + queryLocation + '&profession=' + dataProfession;
+        location.href =
+          "/pages/masters.html?location=" +
+          queryLocation +
+          "&profession=" +
+          dataProfession;
       } else {
-        location.href = '/pages/map.html?profession=' + dataProfession;
+        location.href = "/pages/map.html?profession=" + dataProfession;
       }
     } else if (dataLocation) {
       if (queryProfession) {
-        location.href = '/pages/masters.html?location=' + dataLocation + '&profession=' + queryProfession;
+        location.href =
+          "/pages/masters.html?location=" +
+          dataLocation +
+          "&profession=" +
+          queryProfession;
       } else {
-        location.href = '/pages/category.html?location=' + dataLocation;
+        location.href = "/pages/category.html?location=" + dataLocation;
       }
     }
-  })
+  });
 
   var url = window.location.href;
 
@@ -1859,9 +1868,7 @@ $(document).ready(function () {
 
   if (url.indexOf("/pages/masters.html")) {
     const filtered = users.filter(
-      (i) =>
-        i.profession === queryProfession &&
-        i.location === queryLocation
+      (i) => i.profession === queryProfession && i.location === queryLocation
     );
 
     if (filtered == 0) {
@@ -1872,7 +1879,10 @@ $(document).ready(function () {
     $(filtered).each(function (i) {
       let userik = filtered[i];
       let userSection = $(
-        `<div style="background-image: ${userik.imgs.img1}" class="user__card" data-link data-id="${userik.id}" id="${userik.id}"><a href="http://127.0.0.1:5500/pages/user.html" class="user__url"></a><a href="http://127.0.0.1:5500/pages/user.html">${userik.name}</a><a href="http://127.0.0.1:5500/pages/user.html" class="user__adress">${userik.adress}</a></div>`
+        `<div style="background-image: ${userik.imgs.img1}" class="user__card" data-link data-id="${userik.id}" id="${userik.id}">
+        <a href="/pages/user.html?id=${userik.id}" class="user__url"></a>
+        <a href="/pages/user.html?id=${userik.id}">${userik.name}</a>
+        <a href="/pages/user.html?id=${userik.id}" class="user__adress">${userik.adress}</a></div>`
       );
 
       $(".user__card").css("background-image");
@@ -1880,9 +1890,10 @@ $(document).ready(function () {
     });
   }
 
-  // Add user page info and images
+
   if (url.indexOf("/pages/user.html")) {
-    const currentUser = users.filter((i) => i.id);
+    const currentUser = users.filter((i) => i.id === queryId);
+    console.log(currentUser[0]);
     $.each(currentUser[0].imgs, function (key, value) {
       let slide = $(
         `<div style="background-image: ${value}" class="swiper-slide"></div>`
@@ -1937,7 +1948,7 @@ $(document).ready(function () {
     $("#user__title").text(currentUser[0].name);
     $(".swiper").append($(`<div class="swiper-button-prev"></div>`));
     $(".swiper").append($(`<div class="swiper-button-next"></div>`));
-
+  
     ymaps.ready(init);
     function init() {
       var myMap = new ymaps.Map(
@@ -1966,6 +1977,7 @@ $(document).ready(function () {
       );
     }
   }
+
 
   $(".header__burger").on("click", function () {
     $(".header__burger-menu").toggleClass("closed");
