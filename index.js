@@ -1437,7 +1437,7 @@ $(document).ready(function () {
       profession: "volosi",
       location: "yug",
       name: "Диана",
-      adress: "Тухачевского, 24/4",
+      adress: "45 параллель, 73",
       description: "",
       phone: "+79187994048",
       promo: "STAILO",
@@ -1461,7 +1461,7 @@ $(document).ready(function () {
       },
       insta: "https://instagram.com/diana_stailo?igshid=NmNmNjAwNzg=",
       whats: "https://wa.me/79187994048",
-      geo: [45.012740074588066, 41.90521349999998],
+      geo: [45.00152357458477,41.90437799999992],
     },
     {
       id: "46",
@@ -1709,6 +1709,190 @@ $(document).ready(function () {
       vk: "https://vk.com/id210402922",
       geo: [45.03773157457566, 41.974545500000005],
     },
+    {
+      id: "54",
+      profession: "permanent",
+      location: "yug",
+      name: "Ларина",
+      adress: "Рогожникова, 17",
+      description: "",
+      phone: "+79280286229",
+      promo: "PM10",
+      imgs: {
+        img1: "url(/assets/images/users/54/01.jpeg)",
+        img2: "url(/assets/images/users/54/02.jpeg)",
+        img3: "url(/assets/images/users/54/03.jpeg)",
+        img4: "url(/assets/images/users/54/04.jpeg)",
+      },
+      services: {
+        service1: "Брови (первичная процедура) - 3000₽<br>Коррекция - 2000₽<br>Обновление (от 3х месяцев) - 3000₽",
+        service2: "Губы (акварельная техника, помадный прокрас, контур) - 3000₽<br>Коррекция - 2000₽<br>Обновление (от 3х месяцев) - 3000₽",
+        service3:
+          "Межресничное пространство (первичная процедура) - 2500₽<br>Коррекция - 2000₽<br>Обновление (от 3х месяцев) - 2500₽<br><br>Меня зовут Ларина, уже больше года я мастер-бровиста и мастер по перманентному макияжу.<br><br>Моя работа приносит мне большое удовольствие. Я очень рада, когда улыбки моих клиенток светятся радостью и уверенностью в себе.<br><br>Я очень довольна, что могу помогать многим женщинам становиться еще прекраснее. А Ваши благодарные отзывы дают мне заряд энергии на каждый новый рабочий день!<br><br>В своей работе я использую только качественные, безопасные материалы ведущих брендов.",
+      },
+      insta: "https://instagram.com/permanent_kishmakhova?igshid=YzA2ZDJiZGQ=",
+      whats: "https://wa.me/79995901720",
+      geo: [45.010095074581244,41.90198850000003],
+    },
+    {
+      id: "55",
+      profession: "brovist",
+      location: "yug",
+      name: "Ларина",
+      adress: "Рогожникова, 17",
+      description: "",
+      phone: "+79280286229",
+      promo: "PM10",
+      imgs: {
+        img1: "url(/assets/images/users/55/01.jpeg)",
+        img2: "url(/assets/images/users/55/02.jpeg)",
+        img3: "url(/assets/images/users/55/03.jpeg)",
+        img4: "url(/assets/images/users/55/04.jpeg)",
+      },
+      services: {
+        service1: "Окрашивание хной/краской - 500₽",
+        service2: "Коррекция воск/пинцет - 300₽",
+        service3: "Коррекция + покраска хной/краской - 650₽",
+        service4: "Мусульманская коррекция - 300₽",
+        service5: "Ламинирование бровей - 1000₽",
+        service6: "Ламинирование ресниц - 900₽",
+        service7: "Окрашивание ресниц - 300₽",
+        service8:
+          "Ламинирование бровей + окрашивание + коррекция - 1200₽<br><br>Меня зовут Ларина, уже больше года я мастер-бровиста и мастер по перманентному макияжу.<br><br>Моя работа приносит мне большое удовольствие. Я очень рада, когда улыбки моих клиенток светятся радостью и уверенностью в себе.<br><br>Я очень довольна, что могу помогать многим женщинам становиться еще прекраснее. А Ваши благодарные отзывы дают мне заряд энергии на каждый новый рабочий день!<br><br>В своей работе я использую только качественные, безопасные материалы ведущих брендов.",
+      },
+      insta: "https://instagram.com/permanent_kishmakhova?igshid=YzA2ZDJiZGQ=",
+      whats: "https://wa.me/79995901720",
+      geo: [45.010095074581244,41.90198850000003],
+    },
+    {
+      id: "56",
+      profession: "brovist",
+      location: "yug",
+      name: "Светлана",
+      adress: "Савченко, 38к2",
+      description: "",
+      phone: "+79002635279",
+      promo: "s1pnv5",
+      imgs: {
+        img1: "url(/assets/images/users/56/01.jpg)",
+        img2: "url(/assets/images/users/56/02.jpg)",
+        img3: "url(/assets/images/users/56/03.jpg)",
+        img4: "url(/assets/images/users/56/04.jpg)",
+        img5: "url(/assets/images/users/56/05.jpg)",
+        img6: "url(/assets/images/users/56/06.jpg)",
+      },
+      services: {
+        service1: "Коррекция и окрашивание бровей - 550₽",
+        service2: "Коррекция бровей (пинцет) - 200₽",
+        service3: "Окрашивание бровей - 400₽",
+        service4: "Ламинирование бровей/ окрашивание/ коррекция - 750₽",
+        service5: "Ламинирование бровей - 650₽",
+      },
+      insta: "https://instagram.com/s1pnv_brows?igshid=YmMyMTA2M2Y=",
+      whats: "https://wa.me/79002635279",
+      telegram: "https://t.me/s1pnv",
+      geo: [45.00547507456939,41.90041649999997],
+    },
+    {
+      id: "57",
+      profession: "brovist",
+      location: "center",
+      name: "Анастасия",
+      adress: "Мира, 278",
+      description: "",
+      phone: "+79966940301",
+      promo: "BeautyStav",
+      imgs: {
+        img1: "url(/assets/images/users/57/01.jpeg)",
+        img2: "url(/assets/images/users/57/02.jpeg)",
+        img3: "url(/assets/images/users/57/03.jpeg)",
+        img4: "url(/assets/images/users/57/04.jpeg)",
+        img5: "url(/assets/images/users/57/05.jpeg)",
+        img6: "url(/assets/images/users/57/06.jpeg)",
+        img7: "url(/assets/images/users/57/07.jpeg)",
+        img8: "url(/assets/images/users/57/08.jpeg)",
+        img9: "url(/assets/images/users/57/09.jpeg)",
+        img10: "url(/assets/images/users/57/10.jpeg)",
+        img11: "url(/assets/images/users/57/11.jpeg)",
+      },
+      services: {
+        service1: "Коррекция бровей + окрашивание ламинирование(ботокс в подарок) - 300₽",
+        service2: "Коррекция бровей+окрашивание (краска/хна) - 800₽",
+        service3: "Коррекция бровей воск/пинцет - 400₽",
+        service4: "Ламинирование  ресниц + окрашивание(ботокс в подарок) - 1500₽<br><br>Я мастер с художественным образованием, подберу идеальную форму бровей с художественной точки зрения.<br><br>Работаю в сфере красоты с 2019г, знаю все о правильной работе с бровями и делюсь этими знаниями с другими. Преображаю взгляд оформлением ресниц и бровей.<br><br>Работаю только на лучших материалах и забочусь о здоровье своих клиентов.<br>Мастер/инструктор по оформлению бровей и ламинированию ресниц.",
+      },
+      insta: "https://instagram.com/anastasia_brow.stav",
+      whats: "https://wa.me/79966940301",
+      vk: 'https://vk.com/brow_lami_stav',
+      geo: [45.03773157457566, 41.974545500000005],
+    },
+    {
+      id: "58",
+      profession: "manikur",
+      location: "center",
+      name: "Анастасия",
+      adress: "Мира, 278",
+      description: "",
+      phone: "+79966940301",
+      promo: "BeautyStav",
+      imgs: {
+        img1: "url(/assets/images/users/58/01.jpeg)",
+        img2: "url(/assets/images/users/58/02.jpeg)",
+        img3: "url(/assets/images/users/58/03.jpeg)",
+        img4: "url(/assets/images/users/58/04.jpeg)",
+        img5: "url(/assets/images/users/58/05.jpeg)",
+        img6: "url(/assets/images/users/58/06.jpeg)",
+        img7: "url(/assets/images/users/58/07.jpeg)",
+        img8: "url(/assets/images/users/58/08.jpeg)",
+        img9: "url(/assets/images/users/58/09.jpeg)",
+      },
+      services: {
+        service1: "Маникюр и покрытие гель-лак - 1500₽",
+        service2: "Укрепление ногтей гелем - 1900₽",
+        service3: "Салонное моделирование ногтей (простые формы) - 2200₽",
+        service5: "Арочное моделирование ногтей (сложные формы) - 2800₽",
+        service6: "Коррекция салонных ногтей - 1900₽",
+        service7: "Коррекция арочных ногтей - 2500₽",
+        service8: "Ремонт одного ногтя - 100₽ - 200₽",
+        service9: "Маникюр аппаратный/комбинированный - 800₽<br>Дизайн любой сложности входит в стоимость!<br><br>Я мастер с художественным образованием,  выполню дизайн любой сложности на ногтях.<br><br>Работаю в сфере красоты с 2019г. Сделаю идеальные ногти и дизайн, о котором вы мечтали.<br><br>Работаю только на лучших материалах и забочусь о здоровье своих клиентов.<br>",
+      },
+      insta: "https://instagram.com/anastasia_brow.stav",
+      whats: "https://wa.me/79966940301",
+      vk: 'https://vk.com/brow_lami_stav',
+      geo: [45.03773157457566, 41.974545500000005],
+    },
+    {
+      id: "59",
+      profession: "pedikur",
+      location: "center",
+      name: "Анастасия",
+      adress: "Мира, 278",
+      description: "",
+      phone: "+79966940301",
+      promo: "BeautyStav",
+      imgs: {
+        img1: "url(/assets/images/users/59/01.jpeg)",
+        img2: "url(/assets/images/users/59/02.jpeg)",
+        img3: "url(/assets/images/users/59/03.jpeg)",
+        img4: "url(/assets/images/users/59/04.jpeg)",
+        img5: "url(/assets/images/users/59/05.jpeg)",
+        img6: "url(/assets/images/users/59/06.jpeg)",
+      },
+      services: {
+        service1: "Педикюр полный без покрытия - 1500₽",
+        service2: "Педикюр полный с покрытием гель-лак - 1900₽",
+        service3: "Педикюр только пальчиков с покрытием гель-лак - 1500₽",
+        service5: "Педикюр пальчиков без покрытия - 1000₽",
+        service6: "Обработка только стопы - 700₽",
+        service7: "Зачистка онихолизиса/онихомикоза - 400₽ - 800₽",
+        service8: "Обработка стержневой мозоли/глубоких трещин - 200₽ - 800₽",
+        service9: "Наложение повязки/тампонады/тейпирование - 100₽ - 400₽<br>Дизайн любой сложности входит в стоимость!<br><br>Я мастер с художественным образованием,  выполню дизайн любой сложности на ногтях.<br><br>Работаю в сфере красоты с 2019г. Сделаю идеальные ногти и дизайн, о котором вы мечтали.<br><br>Работаю только на лучших материалах и забочусь о здоровье своих клиентов.<br>",
+      },
+      insta: "https://instagram.com/anastasia_brow.stav",
+      whats: "https://wa.me/79966940301",
+      vk: 'https://vk.com/brow_lami_stav',
+      geo: [45.03773157457566, 41.974545500000005],
+    },
   ];
 
   const urlSearchParams = new URLSearchParams(window.location.search);
@@ -1717,7 +1901,6 @@ $(document).ready(function () {
   var queryLocation = params.location;
   var queryProfession = params.profession;
   var queryId = params.id;
-
 
   $("[data-link]").click(function (e) {
     e.preventDefault();
@@ -1890,10 +2073,24 @@ $(document).ready(function () {
     });
   }
 
+  $(".header__burger").on("click", function () {
+    console.log("ASD");
+    $(".header__burger-menu").toggleClass("closed");
+    $(".header__burger-menu").addClass("opened");
+    $("html, body").css({ overflow: "hidden", height: "100%" });
+  });
+  $(".burger-menu_cls").on("click", function () {
+    $(".header__burger-menu").addClass("closed");
+    $("html, body").css({ overflow: "auto", height: "auto" });
+  });
+  $(".burger-menu__nav-item").on("click", function () {
+    $(".header__burger-menu").addClass("closed");
+    $("html, body").css({ overflow: "auto", height: "auto" });
+  });
 
   if (url.indexOf("/pages/user.html")) {
     const currentUser = users.filter((i) => i.id === queryId);
-    console.log(currentUser[0]);
+
     $.each(currentUser[0].imgs, function (key, value) {
       let slide = $(
         `<div style="background-image: ${value}" class="swiper-slide"></div>`
@@ -1910,7 +2107,7 @@ $(document).ready(function () {
       `<p class="user__adress">Адрес: ${currentUser[0].adress}</p>`
     );
     let userPhone = $(
-      `<a class="user__phone" href="tel:${currentUser[0].phone}">Телефон: ${currentUser[0].phone}</a>`
+      `<a class="user__phone" href="tel:${currentUser[0].phone}">Позвонить</a>`
     );
     let userInsta = $(
       `<a class="user__social-icon insta" href="${currentUser[0].insta}"></a>`
@@ -1925,7 +2122,7 @@ $(document).ready(function () {
       `<a class="user__social-icon telegramm" href="${currentUser[0].telegram}"></a>`
     );
     let userPromo = $(
-      `<p class="user__promo">Промо-код на скидку: <span class="promo__item">${currentUser[0].promo}</span></p>`
+      `<p class="user__promo">Промо-код на скидку: <span class="promo__item">"${currentUser[0].promo}"</span></p>`
     );
     $(".user__contacts").prepend(userPromo);
     $(".user__contacts").prepend(userPhone);
@@ -1948,7 +2145,7 @@ $(document).ready(function () {
     $("#user__title").text(currentUser[0].name);
     $(".swiper").append($(`<div class="swiper-button-prev"></div>`));
     $(".swiper").append($(`<div class="swiper-button-next"></div>`));
-  
+
     ymaps.ready(init);
     function init() {
       var myMap = new ymaps.Map(
@@ -1977,21 +2174,6 @@ $(document).ready(function () {
       );
     }
   }
-
-
-  $(".header__burger").on("click", function () {
-    $(".header__burger-menu").toggleClass("closed");
-    $(".header__burger-menu").addClass("opened");
-    $("html, body").css({ overflow: "hidden", height: "100%" });
-  });
-  $(".burger-menu_cls").on("click", function () {
-    $(".header__burger-menu").addClass("closed");
-    $("html, body").css({ overflow: "auto", height: "auto" });
-  });
-  $(".burger-menu__nav-item").on("click", function () {
-    $(".header__burger-menu").addClass("closed");
-    $("html, body").css({ overflow: "auto", height: "auto" });
-  });
 
   const swiper = new Swiper(".swiper", {
     direction: "horizontal",

@@ -359,56 +359,69 @@ body {
     background-image: url('/assets/images/brovi.jpg');
     background-size: cover;
 }
+
 .leshmaker {
     background-image: url('/assets/images/resnic.jpg');
     background-size: cover;
 }
+
 .perm {
     background-image: url('/assets/images/perm.jpeg');
     background-size: cover;
 }
+
 .manik {
     background-image: url('/assets/images/manik.jpg');
     background-size: cover;
 }
+
 .pedikur {
     background-image: url('/assets/images/pedik.jpg');
     background-size: cover;
 }
+
 .visage {
     background-image: url('/assets/images/visage.jpg');
     background-size: cover;
 }
+
 .volos {
     background-image: url('/assets/images/volos.jpg');
     background-size: cover;
     background-position: top !important;
 }
+
 .kosmetolog {
     background-image: url('/assets/images/kosmetolog.jpg');
     background-size: cover;
     background-position: 10%;
 }
+
 .massage {
     background-image: url('/assets/images/massage.jpg');
     background-size: cover;
 }
+
 .tatoo {
     background-image: url('/assets/images/tato.jpg');
     background-size: cover;
 }
+
 .depil {
     background-image: url('/assets/images/depil.jpg');
     background-size: cover;
 }
+
 .sever {
     background-image: url('/assets/images/sever.jpg');
     background-size: cover;
 }
+
 .centr {
     background-image: url('/assets/images/center.jpg');
     background-size: cover;
 }
+
 .yug {
     background-image: url('/assets/images/yug.jpg');
     background-size: cover;
@@ -488,6 +501,7 @@ body {
     color: white;
     text-decoration: none;
 }
+
 .user__social-title {
     color: white;
     width: 95%;
@@ -588,7 +602,6 @@ body {
 
 .promo__item {
     font-size: 45px;
-    text-decoration: underline;
 }
 
 .promo__item {
@@ -597,12 +610,30 @@ body {
 }
 
 .user__phone {
-    text-decoration: none;
-    color: white;
     font-family: 'SpecLight';
-    font-size: 35px;
-    padding-bottom: 20px;
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
+    padding: 20px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 10px #eee;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 25px;
 }
+
+.user__phone:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .user__attention {
     color: red;
@@ -642,6 +673,7 @@ body {
     background-image: url('/assets/images/user_whats.png');
     background-size: cover;
 }
+
 .telegramm::after {
     content: "";
     width: 30px;
@@ -650,6 +682,7 @@ body {
     background-image: url('/assets/images/user_telegram.png');
     background-size: cover;
 }
+
 .vk::after {
     content: "";
     width: 30px;
@@ -666,17 +699,21 @@ body {
     text-decoration: none;
     font-family: 'SpecLight';
 }
+
 .background__rules {
     height: 255px;
 }
+
 .opacity__rules {
     height: 255px;
 }
+
 .rules {
     max-width: 80%;
     width: 100%;
     margin: 40px auto;
 }
+
 .rules__list {
     font-size: 22px;
 }
@@ -694,28 +731,36 @@ body {
     .background_subtitle-text {
         top: 55%;
     }
+
     .user__top {
         max-width: 100%;
         width: 90%;
     }
+
     .user__phone {
         font-size: 25px;
     }
+
     .user__promo {
         font-size: 25px;
     }
+
     .promo__item {
         font-size: 30px;
     }
+
     .user__attention {
         max-width: 70%;
     }
+
     .user__adress {
         font-size: 35px;
     }
+
     .user__service, .user__contacts {
         max-width: 46%;
     }
+
     .user__contacts {
         max-width: 36%;
     }
@@ -775,20 +820,25 @@ body {
         background-position: right;
         height: 400px;
     }
+
     #map {
         width: 100%;
         height: 300px;
     }
+
     .background__rules {
         display: flex;
         align-items: center;
     }
+
     .user__top {
         flex-direction: column;
     }
+
     .user__service {
         max-width: 90%;
     }
+
     .user__contacts {
         max-width: 100%;
     }
@@ -876,9 +926,11 @@ body {
     .users__title {
         font-size: 30px;
     }
+
     .user__social {
         justify-content: center;
     }
+
     .user__social-title {
         text-align: center;
         justify-content: center;
@@ -963,49 +1015,63 @@ body {
         font-size: 20px;
         margin-top: 10px;
     }
+
     .user__title {
         font-size: 45px;
     }
+
     .user__top {
         width: 90%;
         margin: 0 auto;
     }
+
     .user__service {
         width: 100%;
         max-width: 100%;
     }
+
     .user__service-title {
         font-size: 25px;
         margin-top: 15px;
     }
+
     .user__adress {
         font-size: 30px;
     }
+
     .swiper {
         height: 240px;
         border-radius: 25px;
     }
+
     .policy {
         font-size: 12px;
     }
+
     .footer__contacts {
         height: 95%;
     }
+
     .user__contacts {
         text-align: start;
     }
+
     .user__list-item {
         font-size: 15px;
     }
+
     .user__adress, .user__phone, .user__promo {
         font-size: 18px;
     }
-    .user__card > .user__adress {
+
+    .user__card>.user__adress {
         text-align: center;
     }
+
     .promo__item {
         font-size: 20px;
     }
+
     .user__social-title {
         font-size: 16px;
     }
@@ -1015,41 +1081,53 @@ body {
     .footer__copyright {
         max-width: 47%;
     }
+
     .footer__contacts {
         max-width: 55%;
     }
+
     .footer__images, .foooter__made, .footer__copy {
         font-size: 12px;
     }
+
     .footer__social {
         width: 20px;
         height: 20px;
     }
+
     .footer__contacts {
         height: 87%;
     }
+
     .policy {
         font-size: 10px;
     }
+
     .header__social {
         width: 25px;
         height: 25px;
     }
+
     .header__slogan {
         margin-left: 10px;
     }
+
     .background__title {
         margin: 10px 0 0 20px;
     }
+
     .background__subtitle, .background_subtitle-text {
         max-width: 67%;
     }
+
     .background_subtitle-text {
         top: 170px;
     }
-    .footer__social  {
+
+    .footer__social {
         margin-left: 10px;
     }
+
     .user__card {
         height: 185px;
     }
@@ -1093,9 +1171,11 @@ body {
     .user__card {
         height: 150px;
     }
+
     .swiper {
         height: 200px;
     }
+
     .policy {
         font-size: 10px;
     }
