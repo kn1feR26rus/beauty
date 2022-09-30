@@ -19,9 +19,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/jquery.cookie.js"></script>
     <script type="text/javascript">
       (function (m, e, t, r, i, k, a) {
@@ -84,12 +85,12 @@
         <a href="index.html" class="header__item">Главная</a>
         <a href="#category" class="header__item">Услуги</a>
         <a href="pages/rules.html" class="header__item">Правила</a>
-        <a href="" class="header__item">Клиентам</a>
+        <a href="" class="header__item">Контакты</a>
       </nav>
-      <div class="header__contacts">
+      <!-- <div class="header__contacts">
         <a href="https://wa.me/79188677731" class="header__social whats_up"></a>
         <a href="https://tlgg.ru/@Leo26rus" class="header__social telegram"></a>
-      </div>
+      </div> -->
     </header>
     <main class="main">
       <div class="header__burger-menu closed">
@@ -98,7 +99,7 @@
           <a href="index.html" class="burger-menu__nav-item">Главная</a>
           <a href="#category" class="burger-menu__nav-item">Услуги</a>
           <a href="pages/rules.html" class="burger-menu__nav-item">Правила</a>
-          <a href="" class="burger-menu__nav-item">Клиентам</a>
+          <a href="" class="burger-menu__nav-item">Контакты</a>
         </nav>
       </div>
       <section class="background">
@@ -115,48 +116,48 @@
       <section class="category" name="category" id="category">
         <h2 class="catergory__title">Услуги</h2>
         <div class="catergory__box">
-          <div class="catergory__item brovist" id="brovist">
+          <div class="catergory__item brovist" id="brovist" data-aos="flip-up" data-aos-duration="900" data-aos-delay="100">
             <a href="/pages/map.html?profession=brovist" class="catergory__item-title">Брови</a>
             <a href="/pages/map.html?profession=brovist" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item leshmaker">
-            <a href="/pages/map.html?profession=resnici" class="catergory__item-title">Ресницы</a>
+          <div class="catergory__item leshmaker" data-aos="flip-up" data-aos-duration="900" data-aos-delay="200">
+            <a href="/pages/map.html?profession=resnici" class="catergory__item-title" >Ресницы</a>
             <a href="/pages/map.html?profession=resnici" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item perm" id="permanent">
+          <div class="catergory__item perm" id="permanent" data-aos="flip-up" data-aos-duration="900" data-aos-delay="100">
             <a href="/pages/map.html?profession=permanent" class="catergory__item-title">Перманент</a>
             <a href="/pages/map.html?profession=permanent" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item manik" id="manikur">
+          <div class="catergory__item manik" id="manikur" data-aos="flip-up" data-aos-duration="900" data-aos-delay="200">
             <a href="/pages/map.html?profession=manikur" class="catergory__item-title">Маникюр</a>
             <a href="/pages/map.html?profession=manikur" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item pedikur" id="pedikur">
+          <div class="catergory__item pedikur" id="pedikur" data-aos="flip-up" data-aos-duration="900" data-aos-delay="100">
             <a href="/pages/map.html?profession=pedikur" class="catergory__item-title">Педикюр</a>
             <a href="/pages/map.html?profession=pedikur" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item visage" id="visage">
+          <div class="catergory__item visage" id="visage" data-aos="flip-up" data-aos-duration="900" data-aos-delay="200">
             <a href="/pages/map.html?profession=visage" class="catergory__item-title">Визаж</a>
             <a href="/pages/map.html?profession=visage" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item volos" id="volosi">
+          <div class="catergory__item volos" id="volosi" data-aos="flip-up" data-aos-duration="900" data-aos-delay="400">
             <a href="/pages/map.html?profession=volosi" class="catergory__item-title">Уход за волосами</a>
             <a href="/pages/map.html?profession=volosi" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item depil" id="depil">
+          <div class="catergory__item depil" id="depil" data-aos="flip-up" data-aos-duration="900" data-aos-delay="400">
             <a href="/pages/map.html?profession=depil" class="catergory__item-title">Депиляция</a>
             <a href="/pages/map.html?profession=depil" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item kosmetolog" id="kosmetolog">
+          <div class="catergory__item kosmetolog" id="kosmetolog" data-aos="flip-up" data-aos-duration="900" data-aos-delay="400">
             <a href="/pages/map.html?profession=kosmetolog" class="catergory__item-title">Косметология</a>
             <a href="/pages/map.html?profession=kosmetolog" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item massage" id="massage">
+          <div class="catergory__item massage" id="massage" data-aos="flip-up" data-aos-duration="900" data-aos-delay="400">
             <a href="/pages/map.html?profession=massage" class="catergory__item-title">Массаж</a>
             <a href="/pages/map.html?profession=massage" class="catergory__item-url"></a>
           </div>
-          <div class="catergory__item tatoo" id="tatoo">
-            <a href="/pages/map.html?profession=tatoo" class="catergory__item-title">Тату</a>
+          <div class="catergory__item tatoo" id="tatoo" data-aos="flip-up" data-aos-duration="900" data-aos-delay="400">
+            <a href="/pages/map.html?profession=tatoo" class="catergory__item-title" >Тату</a>
             <a href="/pages/map.html?profession=tatoo" class="catergory__item-url"></a>
           </div>
         </div>
@@ -164,19 +165,19 @@
       <section class="map">
         <h2 class="map__title">Районы города</h2>
         <div class="map__box">
-          <div class="map__item sever" id="sever">
+          <div class="map__item sever" id="sever" data-aos="flip-up" data-aos-duration="900">
             <a href="/pages/category.html?location=sever" class="map__item-title">Северо-Запад</a>
             <a href="/pages/category.html?location=sever" class="map__item-url"></a>
           </div>
-          <div class="map__item centr" id="center">
+          <div class="map__item centr" id="center" data-aos="flip-up" data-aos-duration="900" >
             <a href="/pages/category.html?location=center" class="map__item-title">Центр</a>
             <a href="/pages/category.html?location=center" class="map__item-url"></a>
           </div>
-          <div class="map__item yug" id="yug">
+          <div class="map__item yug" id="yug" data-aos="flip-up" data-aos-duration="900">
             <a href="/pages/category.html?location=yug" class="map__item-title">Юго-Запад</a>
             <a href="/pages/category.html?location=yug" class="map__item-url"></a>
           </div>
-          <div class="map__item kvartal204" id="kvartal204">
+          <!-- <div class="map__item kvartal204" id="kvartal204">
             <a href="/pages/category.html?location=kvartal204" class="map__item-title"
               >204 Квартал</a
             >
@@ -189,7 +190,7 @@
           <div class="map__item chapaevka" id="chapaevka">
             <a href="/pages/category.html?location=chapaevka" class="map__item-title">Чапаевка</a>
             <a href="/pages/category.html?location=chapaevka" class="map__item-url"></a>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
@@ -203,7 +204,7 @@
         <a href="mailto:beautystav@beautystav.ru" class="footer__email"
           >beautystav@beautystav.ru</a
         >
-        <div class="footer__social-items">
+        <!-- <div class="footer__social-items">
           <a
             href="https://wa.me/79188677731"
             class="footer__social whats_up"
@@ -212,7 +213,7 @@
             href="https://tlgg.ru/@Leo26rus"
             class="footer__social telegram"
           ></a>
-        </div>
+        </div> -->
         <a class="policy" href="/pages/policy.html" target="_blank"
           >Политика конфиденциальности</a
         >
